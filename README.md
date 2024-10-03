@@ -43,6 +43,9 @@ The weaker the slider the more like original, the stronger, the more like the pr
 Click "Start Live Generation" to begin processing the video feed. Use the "Take Picture" button to capture a still image and generate an AI-enhanced version.
 Currently it is making images with stable-diffuion 2.1 but for example Claude AI can easily change that for you to another model. 
 
+Currently there is a time.sleep(5) at the app.py so that there is 5 second pause between the rendered images but if you have 
+faster computer than mine (3060 ti + 5500 ryzen) you can easily make that way faster. 
+
 Click "Close" to exit the application.
 
 Requirements
