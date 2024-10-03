@@ -6,7 +6,7 @@ AI Video Filter is a Python application that leverages webcam input to generate 
 
 You can see the application in action by watching this video:
 
-[Check it out on YouTube](https://www.youtube.com/watch?v=GgcqSOf2ID0)
+[Check it out on YouTube](https://youtu.be/6GlPnqSQwuQ)
 
 ## Features
 
