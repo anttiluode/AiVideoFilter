@@ -1,5 +1,7 @@
 # AI Video Filter
 
+`[Check it out on YouTube](https://www.youtube.com/watch?v=GgcqSOf2ID0)`
+
 AI Video Filter is a Python application that leverages webcam input to generate AI-enhanced images in real time using the Stable Diffusion model. Users can select their camera, set style transfer parameters, and capture images with artistic modifications based on their prompts.
 
 ## Features
