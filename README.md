@@ -21,26 +21,27 @@ To run this project, follow the steps below:
    cd AI-Video-Filter
 Create a virtual environment (optional but recommended):
 
-bash
-Copy code
 python -m venv env
+
 source env/bin/activate  # On Windows use `env\Scripts\activate`
+
 Install the required packages:
 
-bash
-Copy code
 pip install -r requirements.txt
+
 Usage
+
 Run the application:
 
-bash
-Copy code
 python app.py
-Select the desired camera from the dropdown menu and click "Open Camera".
 
-Enter a prompt in the provided text field (e.g., "A portrait of a person with") and adjust the style transfer strength using the slider.
+Select the desired camera from the dropdown menu and click "Open Camera". (Usually 0)
+
+Enter a prompt in the provided text field (e.g., "A portrait of a person with pipe") and adjust the style transfer strength using the slider.
+The weaker the slider the more like original, the stronger, the more like the prompt. 
 
 Click "Start Live Generation" to begin processing the video feed. Use the "Take Picture" button to capture a still image and generate an AI-enhanced version.
+Currently it is making images with stable-diffuion 2.1 but for example Claude AI can easily change that for you to another model. 
 
 Click "Close" to exit the application.
 
